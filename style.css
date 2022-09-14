@@ -1,0 +1,138 @@
+
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.8em;
+}
+
+.page{
+    height: 100vh;
+    display: flex;
+    background-color: peru;
+}
+
+.sidebar{
+    height: 100vh;
+    width: 20vw;
+    max-width: 300px;
+    min-width: 250px;
+    background-color: purple;
+}
+
+.icons{
+    margin-top: 50px;
+}
+
+
+a{
+    display: flex;
+    text-decoration: none;
+    padding-bottom: 20px;
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+.customer-support-icons{
+    padding-top: 40px;
+}
+
+.dashboard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.dashboard > img{
+    width: 40px;
+}
+
+.dashboard>div{
+    font-size: 30px;
+}
+
+
+.header{
+    background-color: rgb(116, 58, 1);
+    height: 20vh;
+}
+
+.top{
+    display: flex;
+    width: calc(100vw - 20vw);
+    max-width: calc(100vw - 250px);
+    min-width: calc(100vw - 300px);
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+
+}
+
+
+.top-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-right > img{
+    width: 30px;
+}
+
+.top-right > input{
+    width: 40vw;
+}
+
+.top-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.top-left > .profile-pic{
+    border-radius:  50%;
+}
+
+.bottom{
+    
+    width: calc(100vw - 20vw);
+    max-width: calc(100vw - 250px);
+    min-width: calc(100vw - 300px);
+}
+
+.bottom-left{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bottom-right > button{
+    font-size: 30px;
+    background-color: rgb(67, 159, 159);
+    border: none;
+    border-radius: 0.6em;
+    margin: 09px;
+    
+}
+
+.bottom-left-text{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    color: rgb(50, 37, 40);
+   font-weight: bold;
+}
+
+.bottom-left > img{
+    border-radius: 50%;
+}
+
+
+
+
